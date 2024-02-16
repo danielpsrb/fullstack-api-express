@@ -1,6 +1,6 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize('auth_db', 'postgres', 'danstech', {
+const db = new Sequelize('DBname', 'hostDB', 'passwordDB', {
     host: 'localhost',
     dialect: 'postgres'
 });
