@@ -7,7 +7,7 @@ import router from './routes/index.js';
 dotenv.config();
 const app = express();
 
-const allowedOrigins = ['https://f922-36-85-216-32.ngrok-free.app', 'http://localhost:5173', 'http://localhost:5171', 'http://localhost:3000'];
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:3000'];
 
 try {
     await db.authenticate();
